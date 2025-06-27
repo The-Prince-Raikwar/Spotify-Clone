@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="spotify.css">
+  <link rel="stylesheet" href="utlilty.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>'Spotify - Web Player: Music for everyone'</title>
+</head>
+
+<body>
+  <div class="container flex">
+    <div class="left ">
+      <div class="close">
+        <img src="images/close.png">
+      </div>
+      <div class="home">
+        <div class="logo"><a href="https://open.spotify.com" target="_blank"><img src="images/s2.png"></a></div>
+        <ul class="Ulist">
+          <li><a href="#" target="_blank"><img src="images/home.png"></a>HOME</li>
+          <li><a href="#" target="_blank"><img src="images/search.png"></a> SEARCH</li>
+        </ul>
+      </div>
+
+      <div class="library">
+        <div class="LB">
+          <div class="lb">
+            <a href="#" target="_blank"><img src="images/library.png"></a>
+            <p> Your Library</p>
+          </div>
+          <i class="fa fa-plus"></i>
+        </div>
+        <div class="songlist">
+          <ul>
+
+          </ul>
+        </div>
+
+        <div class="footer">
+          <div class="Privacy">
+            <a href="https://www.spotify.com/jp/legal"><span>Legal</span></a>
+
+            <a href="https://www.spotify.com/jp/privacy"><span>Privacy Center</span></a>
+
+            <a href="https://www.spotify.com/jp/privacy-policy"><span>Privacy Policy</span></a>
+
+
+          </div>
+
+          <div class="Privacy">
+            <a href="https://www.spotify.com/jp/cookies-policy"><span>Cookies</span></a>
+
+            <a href="https://www.spotify.com/jp/privacy-policy"><span>About Me</span></a>
+
+            <a href="https://www.spotify.com/jp/accessibbility"><span>Accessibbility</span></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="right">
+
+      <div class="header">
+
+        <div class="nav">
+          <div class="hamburger"> <img src="hamburger.svg"></div>
+          <img src="images/arrow-left-01-Stroke-Rounded.png">
+          <img src="images/arrow-right-01-Stroke-Rounded.png">
+
+        </div>
+
+        <div>
+          <button class="signup">Sign up</button>
+          <button class="login">Log In</button>
+        </div>
+
+      </div>
+      <div class="spotify-playlist">
+        <h1>Trending Songs</h1>
+        <div class="cardContainer"></div>
+
+        <div class="playbar">
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+          <div class="songBar">
+            <div class="songinfo"></div>
+            <div class="songbutton">
+              <img id="previous" src="images/previous-Stroke-Rounded.png">
+
+              <img id="play" src="images/play-circle-02-Stroke-Rounded.png">
+
+              <img id="next" src="images/next-Stroke-Rounded.png">
+            </div>
+            <div class="sound">
+            <div class="songtime"></div>
+            <div class="volume">
+              <img src="vol.svg" alt="">
+              <div class="range">
+                <input type="range" name="volume" id="">
+              </div>
+            </div>
+          </div>
+          
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="spotify.js"></script>
+</body>
+
+
+</html>
